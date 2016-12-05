@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import os
+import itertools
 import pandas as pd
+import seaborn as snb
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import LabelEncoder
@@ -29,7 +31,7 @@ def parse(filename):
     :return: dataframe
     """
 
-    print '\n Loading... \n'
+    print('\n Loading... \n')
 
     dataframe = pd.read_csv(os.path.abspath(os.path.join('app/static/csv/', filename)))
 
@@ -48,6 +50,7 @@ def parse(filename):
 
     # Data
     data = pd.get_dummies(dataframe)
+    dataframe['label'] = target
 
     return dataframe, data, target
 
@@ -89,12 +92,12 @@ def crossValidation(data, target):
     log = logger('logger.crossvalidation.txt')
 
     for (index, value) in enumerate(METHOD_NAMES):
-        print '{0}) {1}'.format(index + 1, value)
+        print('{0}) {1}'.format(index + 1, value))
 
     # Min value 1
     # Max value 2
     # Example: 1,2,3,4,5,6,7,8
-    usr_raw = raw_input('\nSelect variations of machine learning methods: ')
+    usr_raw = input('\nSelect variations of machine learning methods: ')
 
     # Convert usr_raw to array of integers
     usr_choice = [int(x) for x in usr_raw.split(',')]
@@ -112,12 +115,12 @@ def crossValidation(data, target):
             'score': 0,
             'random_state': 0}
 
-    print '\nSearching for best model...\n'
+    print('\nSearching for best model...\n')
     for random_state in range(30):
         x_train, x_test, y_train, y_test = train_test_split(data, target, test_size=0.2, random_state=random_state)
 
         log.write('Random state - {0}\n'.format(random_state))
-        for index, (name, function) in enumerate(lmethods.iteritems()):
+        for index, (name, function) in enumerate(lmethods.items()):
             function.fit(x_train, y_train)
             score = function.score(x_test, y_test)
 
@@ -142,7 +145,39 @@ def crossValidation(data, target):
     log.close()
 
     # Show accuracy changes
-    for (name, value) in scores.iteritems():
+    for (name, value) in scores.items():
         line = plt.plot(range(0, 30), value, 'o-', linewidth=1)
         plt.title('Accuracy of {0}'.format(name))
         plt.show()
+
+def visualization(dataframe, data, target):
+    """
+    Data visualization
+
+    :param dataframe: dataframe
+    :param data: dataframe
+    :param target: array
+    """
+
+    log = logger('logger.visualization.txt')
+
+    # Write info about dataset
+    log.write('Dataset Info\n')
+    dataframe.info(buf=log)
+    log.write('Shape: {0}'.format(dataframe.shape))
+
+    print('1) Scatter plot')
+    print('2) Histogram')
+
+    usr_raw = int(input('Select: '))
+
+    if usr_raw == 1:
+        pass
+    elif usr_raw == 2:
+        dataframe.hist()
+        plt.show()
+    else:
+        exit()
+
+    # Close
+    log.close()

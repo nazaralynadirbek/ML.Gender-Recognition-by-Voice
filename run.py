@@ -5,13 +5,13 @@ import os
 from app.core import parse
 from app.core import logger
 from app.core import transform
+from app.core import visualization
 from app.core import crossValidation
 
 MENU = ['Correlational analysis',
         'Data transformation',
         'Data visualization',
-        'Cross validation techniques',
-        'Show the scatter plot and histogram charts for all features',]
+        'Cross validation techniques']
 
 def main():
     """
@@ -26,9 +26,9 @@ def main():
 
     while True:
         for (index, value) in enumerate(MENU):
-            print '{0}) {1}'.format(index + 1, value)
+            print('{0}) {1}'.format(index + 1, value))
 
-        usr_raw = int(raw_input('Select: '))
+        usr_raw = int(input('Select: '))
 
         if usr_raw == 1:
             log = logger('logger.correlation.txt')
@@ -36,7 +36,7 @@ def main():
             log.write('{0}\n {1}'.format(STATUS, data.corr(method='pearson')))
             log.close()
 
-            print '\n--> Done. Results written in logger.correlation.txt\n'
+            print('\n--> Done. Results written in logger.correlation.txt\n')
         elif usr_raw == 2:
             # Transform data
             data = transform(data)
@@ -44,15 +44,15 @@ def main():
             # Change status
             STATUS = True
 
-            print '\n--> Data has been normalized\n'
+            print('\n--> Data has been normalized\n')
         elif usr_raw == 3:
-            pass
+            visualization(dataframe, data, target)
+
+            print('\n--> Done. Result written in logger.visualization.txt \n')
         elif usr_raw == 4:
             crossValidation(data, target)
 
-            print '\n-->  Done. Results written in logger.crossvalidation.txt\n'
-        elif usr_raw == 5:
-            pass
+            print('\n-->  Done. Results written in logger.crossvalidation.txt\n')
         else:
             exit()
 
