@@ -1,0 +1,181 @@
+Random state - 0
+Method - DecisionTreeClassifier - Score - 0.947949526814
+Method - LinearRegression - Score - 0.796608943745
+Method - GaussianNB - Score - 0.876971608833
+Method - KNeighborsClassifier - Score - 0.716088328076
+
+Random state - 1
+Method - DecisionTreeClassifier - Score - 0.965299684543
+Method - LinearRegression - Score - 0.812658578621
+Method - GaussianNB - Score - 0.869085173502
+Method - KNeighborsClassifier - Score - 0.722397476341
+
+Random state - 2
+Method - DecisionTreeClassifier - Score - 0.965299684543
+Method - LinearRegression - Score - 0.771268468692
+Method - GaussianNB - Score - 0.854889589905
+Method - KNeighborsClassifier - Score - 0.722397476341
+
+Random state - 3
+Method - DecisionTreeClassifier - Score - 0.97476340694
+Method - LinearRegression - Score - 0.795227926422
+Method - GaussianNB - Score - 0.875394321767
+Method - KNeighborsClassifier - Score - 0.708201892744
+
+Random state - 4
+Method - DecisionTreeClassifier - Score - 0.96214511041
+Method - LinearRegression - Score - 0.792811150511
+Method - GaussianNB - Score - 0.897476340694
+Method - KNeighborsClassifier - Score - 0.711356466877
+
+Random state - 5
+Method - DecisionTreeClassifier - Score - 0.940063091483
+Method - LinearRegression - Score - 0.790245630486
+Method - GaussianNB - Score - 0.881703470032
+Method - KNeighborsClassifier - Score - 0.708201892744
+
+Random state - 6
+Method - DecisionTreeClassifier - Score - 0.955835962145
+Method - LinearRegression - Score - 0.792262795578
+Method - GaussianNB - Score - 0.880126182965
+Method - KNeighborsClassifier - Score - 0.690851735016
+
+Random state - 7
+Method - DecisionTreeClassifier - Score - 0.957413249211
+Method - LinearRegression - Score - 0.788564984206
+Method - GaussianNB - Score - 0.902208201893
+Method - KNeighborsClassifier - Score - 0.736593059937
+
+Random state - 8
+Method - DecisionTreeClassifier - Score - 0.968454258675
+Method - LinearRegression - Score - 0.799868191072
+Method - GaussianNB - Score - 0.891167192429
+Method - KNeighborsClassifier - Score - 0.722397476341
+
+Random state - 9
+Method - DecisionTreeClassifier - Score - 0.97476340694
+Method - LinearRegression - Score - 0.8283893895
+Method - GaussianNB - Score - 0.88643533123
+Method - KNeighborsClassifier - Score - 0.705047318612
+
+Random state - 10
+Method - DecisionTreeClassifier - Score - 0.963722397476
+Method - LinearRegression - Score - 0.813337989219
+Method - GaussianNB - Score - 0.881703470032
+Method - KNeighborsClassifier - Score - 0.727129337539
+
+Random state - 11
+Method - DecisionTreeClassifier - Score - 0.96214511041
+Method - LinearRegression - Score - 0.79140087097
+Method - GaussianNB - Score - 0.862776025237
+Method - KNeighborsClassifier - Score - 0.744479495268
+
+Random state - 12
+Method - DecisionTreeClassifier - Score - 0.966876971609
+Method - LinearRegression - Score - 0.794737150796
+Method - GaussianNB - Score - 0.870662460568
+Method - KNeighborsClassifier - Score - 0.725552050473
+
+Random state - 13
+Method - DecisionTreeClassifier - Score - 0.96214511041
+Method - LinearRegression - Score - 0.781779397584
+Method - GaussianNB - Score - 0.881703470032
+Method - KNeighborsClassifier - Score - 0.714511041009
+
+Random state - 14
+Method - DecisionTreeClassifier - Score - 0.971608832808
+Method - LinearRegression - Score - 0.803580355178
+Method - GaussianNB - Score - 0.875394321767
+Method - KNeighborsClassifier - Score - 0.733438485804
+
+Random state - 15
+Method - DecisionTreeClassifier - Score - 0.973186119874
+Method - LinearRegression - Score - 0.824231338518
+Method - GaussianNB - Score - 0.8738170347
+Method - KNeighborsClassifier - Score - 0.706624605678
+
+Random state - 16
+Method - DecisionTreeClassifier - Score - 0.958990536278
+Method - LinearRegression - Score - 0.799160693911
+Method - GaussianNB - Score - 0.883280757098
+Method - KNeighborsClassifier - Score - 0.733438485804
+
+Random state - 17
+Method - DecisionTreeClassifier - Score - 0.963722397476
+Method - LinearRegression - Score - 0.807751527897
+Method - GaussianNB - Score - 0.869085173502
+Method - KNeighborsClassifier - Score - 0.708201892744
+
+Random state - 18
+Method - DecisionTreeClassifier - Score - 0.971608832808
+Method - LinearRegression - Score - 0.799378736525
+Method - GaussianNB - Score - 0.856466876972
+Method - KNeighborsClassifier - Score - 0.744479495268
+
+Random state - 19
+Method - DecisionTreeClassifier - Score - 0.966876971609
+Method - LinearRegression - Score - 0.788055716986
+Method - GaussianNB - Score - 0.888012618297
+Method - KNeighborsClassifier - Score - 0.670347003155
+
+Random state - 20
+Method - DecisionTreeClassifier - Score - 0.963722397476
+Method - LinearRegression - Score - 0.80224167754
+Method - GaussianNB - Score - 0.894321766562
+Method - KNeighborsClassifier - Score - 0.711356466877
+
+Random state - 21
+Method - DecisionTreeClassifier - Score - 0.968454258675
+Method - LinearRegression - Score - 0.794364901959
+Method - GaussianNB - Score - 0.891167192429
+Method - KNeighborsClassifier - Score - 0.720820189274
+
+Random state - 22
+Method - DecisionTreeClassifier - Score - 0.940063091483
+Method - LinearRegression - Score - 0.804496137867
+Method - GaussianNB - Score - 0.875394321767
+Method - KNeighborsClassifier - Score - 0.706624605678
+
+Random state - 23
+Method - DecisionTreeClassifier - Score - 0.966876971609
+Method - LinearRegression - Score - 0.799882168927
+Method - GaussianNB - Score - 0.906940063091
+Method - KNeighborsClassifier - Score - 0.703470031546
+
+Random state - 24
+Method - DecisionTreeClassifier - Score - 0.963722397476
+Method - LinearRegression - Score - 0.785464399669
+Method - GaussianNB - Score - 0.881703470032
+Method - KNeighborsClassifier - Score - 0.708201892744
+
+Random state - 25
+Method - DecisionTreeClassifier - Score - 0.957413249211
+Method - LinearRegression - Score - 0.802685750627
+Method - GaussianNB - Score - 0.862776025237
+Method - KNeighborsClassifier - Score - 0.720820189274
+
+Random state - 26
+Method - DecisionTreeClassifier - Score - 0.971608832808
+Method - LinearRegression - Score - 0.80722206776
+Method - GaussianNB - Score - 0.903785488959
+Method - KNeighborsClassifier - Score - 0.712933753943
+
+Random state - 27
+Method - DecisionTreeClassifier - Score - 0.955835962145
+Method - LinearRegression - Score - 0.812515897589
+Method - GaussianNB - Score - 0.905362776025
+Method - KNeighborsClassifier - Score - 0.723974763407
+
+Random state - 28
+Method - DecisionTreeClassifier - Score - 0.955835962145
+Method - LinearRegression - Score - 0.783493324912
+Method - GaussianNB - Score - 0.865930599369
+Method - KNeighborsClassifier - Score - 0.697160883281
+
+Random state - 29
+Method - DecisionTreeClassifier - Score - 0.955835962145
+Method - LinearRegression - Score - 0.769131298086
+Method - GaussianNB - Score - 0.862776025237
+Method - KNeighborsClassifier - Score - 0.709779179811
+
+Best model is DecisionTreeClassifier with score 0.97476340694 and random state 3
