@@ -1,0 +1,9 @@
+# Local files
+.DS_Store
+.idea
+
+# Folders
+.env
+
+# Extensions
+*.pyc
