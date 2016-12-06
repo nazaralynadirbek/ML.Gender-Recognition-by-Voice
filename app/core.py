@@ -177,7 +177,7 @@ def visualization(dataframe, data, target):
     if usr_raw == 1:
         pass
     elif usr_raw == 2:
-        dataframe.hist()
+        dataframe.hist(figsize=(15, 15))
         plt.show()
     elif usr_raw == 3:
         snb.set(context="paper")
