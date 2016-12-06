@@ -20,7 +20,7 @@ def main():
     """
 
     dataframe, data, target = parse('voice.csv')
-
+    
     # Transform status
     STATUS = False
 
