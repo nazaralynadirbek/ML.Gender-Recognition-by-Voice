@@ -1,0 +1,241 @@
+Random state - 0
+Method - DecisionTreeClassifier - Score - 0.9463722397476341
+Method - LogisticRegression - Score - 0.9637223974763407
+Method - KNeighborsClassifier - Score - 0.9794952681388013
+Method - MLPRegressor - Score - 0.8750132249190641
+Method - Ridge - Score - 0.796531891267366
+Method - GaussianNB - Score - 0.8848580441640379
+
+Random state - 1
+Method - DecisionTreeClassifier - Score - 0.973186119873817
+Method - LogisticRegression - Score - 0.9668769716088328
+Method - KNeighborsClassifier - Score - 0.973186119873817
+Method - MLPRegressor - Score - 0.871015795091176
+Method - Ridge - Score - 0.8147374840813901
+Method - GaussianNB - Score - 0.8738170347003155
+
+Random state - 2
+Method - DecisionTreeClassifier - Score - 0.9574132492113565
+Method - LogisticRegression - Score - 0.9637223974763407
+Method - KNeighborsClassifier - Score - 0.9684542586750788
+Method - MLPRegressor - Score - 0.8422834403624511
+Method - Ridge - Score - 0.7728267569907779
+Method - GaussianNB - Score - 0.862776025236593
+
+Random state - 3
+Method - DecisionTreeClassifier - Score - 0.9700315457413249
+Method - LogisticRegression - Score - 0.9652996845425867
+Method - KNeighborsClassifier - Score - 0.9747634069400631
+Method - MLPRegressor - Score - 0.854891160058192
+Method - Ridge - Score - 0.7939710692392568
+Method - GaussianNB - Score - 0.88801261829653
+
+Random state - 4
+Method - DecisionTreeClassifier - Score - 0.9574132492113565
+Method - LogisticRegression - Score - 0.9668769716088328
+Method - KNeighborsClassifier - Score - 0.9794952681388013
+Method - MLPRegressor - Score - 0.832556903539259
+Method - Ridge - Score - 0.7936324093346832
+Method - GaussianNB - Score - 0.8990536277602523
+
+Random state - 5
+Method - DecisionTreeClassifier - Score - 0.9495268138801262
+Method - LogisticRegression - Score - 0.9700315457413249
+Method - KNeighborsClassifier - Score - 0.9858044164037855
+Method - MLPRegressor - Score - 0.8462895800018635
+Method - Ridge - Score - 0.7914161060684486
+Method - GaussianNB - Score - 0.8927444794952681
+
+Random state - 6
+Method - DecisionTreeClassifier - Score - 0.9589905362776026
+Method - LogisticRegression - Score - 0.9637223974763407
+Method - KNeighborsClassifier - Score - 0.9747634069400631
+Method - MLPRegressor - Score - 0.8584463081000966
+Method - Ridge - Score - 0.7911589017056082
+Method - GaussianNB - Score - 0.8848580441640379
+
+Random state - 7
+Method - DecisionTreeClassifier - Score - 0.9574132492113565
+Method - LogisticRegression - Score - 0.9605678233438486
+Method - KNeighborsClassifier - Score - 0.9716088328075709
+Method - MLPRegressor - Score - 0.8566061282446149
+Method - Ridge - Score - 0.7887080510884499
+Method - GaussianNB - Score - 0.9069400630914827
+
+Random state - 8
+Method - DecisionTreeClassifier - Score - 0.9716088328075709
+Method - LogisticRegression - Score - 0.973186119873817
+Method - KNeighborsClassifier - Score - 0.9826498422712934
+Method - MLPRegressor - Score - 0.8640156105922198
+Method - Ridge - Score - 0.799928721805757
+Method - GaussianNB - Score - 0.8974763406940063
+
+Random state - 9
+Method - DecisionTreeClassifier - Score - 0.9763406940063092
+Method - LogisticRegression - Score - 0.9779179810725552
+Method - KNeighborsClassifier - Score - 0.9747634069400631
+Method - MLPRegressor - Score - 0.8762313371756763
+Method - Ridge - Score - 0.8261962128457638
+Method - GaussianNB - Score - 0.8943217665615142
+
+Random state - 10
+Method - DecisionTreeClassifier - Score - 0.9574132492113565
+Method - LogisticRegression - Score - 0.9779179810725552
+Method - KNeighborsClassifier - Score - 0.9747634069400631
+Method - MLPRegressor - Score - 0.8486849499310954
+Method - Ridge - Score - 0.8125170040178409
+Method - GaussianNB - Score - 0.8848580441640379
+
+Random state - 11
+Method - DecisionTreeClassifier - Score - 0.9684542586750788
+Method - LogisticRegression - Score - 0.9558359621451105
+Method - KNeighborsClassifier - Score - 0.9716088328075709
+Method - MLPRegressor - Score - 0.8377828707636432
+Method - Ridge - Score - 0.7898478251962542
+Method - GaussianNB - Score - 0.8722397476340694
+
+Random state - 12
+Method - DecisionTreeClassifier - Score - 0.9700315457413249
+Method - LogisticRegression - Score - 0.9637223974763407
+Method - KNeighborsClassifier - Score - 0.9794952681388013
+Method - MLPRegressor - Score - 0.8621537202262667
+Method - Ridge - Score - 0.7928768674459752
+Method - GaussianNB - Score - 0.8753943217665615
+
+Random state - 13
+Method - DecisionTreeClassifier - Score - 0.9605678233438486
+Method - LogisticRegression - Score - 0.9542586750788643
+Method - KNeighborsClassifier - Score - 0.9700315457413249
+Method - MLPRegressor - Score - 0.8393440885204705
+Method - Ridge - Score - 0.7827374821878766
+Method - GaussianNB - Score - 0.88801261829653
+
+Random state - 14
+Method - DecisionTreeClassifier - Score - 0.9684542586750788
+Method - LogisticRegression - Score - 0.973186119873817
+Method - KNeighborsClassifier - Score - 0.9810725552050473
+Method - MLPRegressor - Score - 0.8783612499156983
+Method - Ridge - Score - 0.8019295801357934
+Method - GaussianNB - Score - 0.8801261829652997
+
+Random state - 15
+Method - DecisionTreeClassifier - Score - 0.9747634069400631
+Method - LogisticRegression - Score - 0.9794952681388013
+Method - KNeighborsClassifier - Score - 0.9842271293375394
+Method - MLPRegressor - Score - 0.8930196894234083
+Method - Ridge - Score - 0.8226327396612341
+Method - GaussianNB - Score - 0.8817034700315457
+
+Random state - 16
+Method - DecisionTreeClassifier - Score - 0.9574132492113565
+Method - LogisticRegression - Score - 0.9684542586750788
+Method - KNeighborsClassifier - Score - 0.9779179810725552
+Method - MLPRegressor - Score - 0.8557284083152318
+Method - Ridge - Score - 0.7982687865955859
+Method - GaussianNB - Score - 0.88801261829653
+
+Random state - 17
+Method - DecisionTreeClassifier - Score - 0.9668769716088328
+Method - LogisticRegression - Score - 0.9700315457413249
+Method - KNeighborsClassifier - Score - 0.9668769716088328
+Method - MLPRegressor - Score - 0.8550676868593422
+Method - Ridge - Score - 0.8079606252497056
+Method - GaussianNB - Score - 0.8690851735015773
+
+Random state - 18
+Method - DecisionTreeClassifier - Score - 0.9700315457413249
+Method - LogisticRegression - Score - 0.9716088328075709
+Method - KNeighborsClassifier - Score - 0.9810725552050473
+Method - MLPRegressor - Score - 0.8535205615978905
+Method - Ridge - Score - 0.7989574500465202
+Method - GaussianNB - Score - 0.8643533123028391
+
+Random state - 19
+Method - DecisionTreeClassifier - Score - 0.9558359621451105
+Method - LogisticRegression - Score - 0.9668769716088328
+Method - KNeighborsClassifier - Score - 0.9684542586750788
+Method - MLPRegressor - Score - 0.8401515029304801
+Method - Ridge - Score - 0.788359909616571
+Method - GaussianNB - Score - 0.8943217665615142
+
+Random state - 20
+Method - DecisionTreeClassifier - Score - 0.9668769716088328
+Method - LogisticRegression - Score - 0.9684542586750788
+Method - KNeighborsClassifier - Score - 0.973186119873817
+Method - MLPRegressor - Score - 0.8310777342131055
+Method - Ridge - Score - 0.8028510428625393
+Method - GaussianNB - Score - 0.8958990536277602
+
+Random state - 21
+Method - DecisionTreeClassifier - Score - 0.9700315457413249
+Method - LogisticRegression - Score - 0.9684542586750788
+Method - KNeighborsClassifier - Score - 0.9747634069400631
+Method - MLPRegressor - Score - 0.8348569624819973
+Method - Ridge - Score - 0.7967386485897394
+Method - GaussianNB - Score - 0.9037854889589906
+
+Random state - 22
+Method - DecisionTreeClassifier - Score - 0.9400630914826499
+Method - LogisticRegression - Score - 0.9700315457413249
+Method - KNeighborsClassifier - Score - 0.9826498422712934
+Method - MLPRegressor - Score - 0.8526779298454609
+Method - Ridge - Score - 0.8040947517827504
+Method - GaussianNB - Score - 0.88801261829653
+
+Random state - 23
+Method - DecisionTreeClassifier - Score - 0.9668769716088328
+Method - LogisticRegression - Score - 0.9700315457413249
+Method - KNeighborsClassifier - Score - 0.9810725552050473
+Method - MLPRegressor - Score - 0.8660832256344666
+Method - Ridge - Score - 0.7984238537860937
+Method - GaussianNB - Score - 0.9148264984227129
+
+Random state - 24
+Method - DecisionTreeClassifier - Score - 0.9621451104100947
+Method - LogisticRegression - Score - 0.9668769716088328
+Method - KNeighborsClassifier - Score - 0.9700315457413249
+Method - MLPRegressor - Score - 0.8459218168050548
+Method - Ridge - Score - 0.7892859143143284
+Method - GaussianNB - Score - 0.8848580441640379
+
+Random state - 25
+Method - DecisionTreeClassifier - Score - 0.9589905362776026
+Method - LogisticRegression - Score - 0.9621451104100947
+Method - KNeighborsClassifier - Score - 0.9700315457413249
+Method - MLPRegressor - Score - 0.8281939551629632
+Method - Ridge - Score - 0.8017868809855186
+Method - GaussianNB - Score - 0.8690851735015773
+
+Random state - 26
+Method - DecisionTreeClassifier - Score - 0.9652996845425867
+Method - LogisticRegression - Score - 0.9763406940063092
+Method - KNeighborsClassifier - Score - 0.9779179810725552
+Method - MLPRegressor - Score - 0.8731422305438654
+Method - Ridge - Score - 0.8061408395931018
+Method - GaussianNB - Score - 0.9100946372239748
+
+Random state - 27
+Method - DecisionTreeClassifier - Score - 0.9574132492113565
+Method - LogisticRegression - Score - 0.9779179810725552
+Method - KNeighborsClassifier - Score - 0.9842271293375394
+Method - MLPRegressor - Score - 0.8688930431479708
+Method - Ridge - Score - 0.8125666316421275
+Method - GaussianNB - Score - 0.9085173501577287
+
+Random state - 28
+Method - DecisionTreeClassifier - Score - 0.9589905362776026
+Method - LogisticRegression - Score - 0.9558359621451105
+Method - KNeighborsClassifier - Score - 0.9700315457413249
+Method - MLPRegressor - Score - 0.8419558223128466
+Method - Ridge - Score - 0.7839351776921253
+Method - GaussianNB - Score - 0.8722397476340694
+
+Random state - 29
+Method - DecisionTreeClassifier - Score - 0.9526813880126183
+Method - LogisticRegression - Score - 0.9558359621451105
+Method - KNeighborsClassifier - Score - 0.9652996845425867
+Method - MLPRegressor - Score - 0.8361203285293631
+Method - Ridge - Score - 0.769006452485897
+Method - GaussianNB - Score - 0.8690851735015773
+
+Best model is KNeighborsClassifier with score 0.9858044164037855 and random state 5

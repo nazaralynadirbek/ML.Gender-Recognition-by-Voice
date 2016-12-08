@@ -16,14 +16,14 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neural_network import MLPRegressor
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge, Lasso
+from sklearn.linear_model import LogisticRegression, Ridge, Lasso
 
 METHOD_NAMES = ['KNeighborsClassifier', 'DecisionTreeClassifier',
-                'GaussianNB', 'LinearRegression', 'LogisticRegression',
-                'Ridge', 'Lasso', 'MLPRegressor']
+                'GaussianNB', 'LogisticRegression',
+                'Ridge', 'MLPRegressor']
 
-METHOD_FUNCTIONS = [KNeighborsClassifier(), DecisionTreeClassifier(), GaussianNB(),
-                    LinearRegression(), LogisticRegression(), Ridge(), Lasso(), MLPRegressor()]
+METHOD_FUNCTIONS = [KNeighborsClassifier(), DecisionTreeClassifier(), GaussianNB(), 
+                    LogisticRegression(), Ridge(), MLPRegressor()]
 
 def parse(filename):
     """
@@ -144,12 +144,24 @@ def crossValidation(data, target):
 
     # Close file
     log.close()
+    
+    
+    used_methods = []
 
     # Show accuracy changes
-    for (name, value) in scores.items():
-        line = plt.plot(range(0, 30), value, 'o-', linewidth=1)
-        plt.title('Accuracy of {0}'.format(name))
-        plt.show()
+    for (name, values) in scores.items():
+        line = plt.plot(range(0, 30), values, 'o-', linewidth=1)
+        used_methods.append(name)
+        
+    used_methods = tuple(used_methods)
+    plt.legend(used_methods, 
+               scatterpoints=1,
+               loc='lower left',
+               ncol=3,
+               fontsize=8)
+
+    plt.title('Accuracy of used algorithms')
+    plt.show()
 
 def visualization(dataframe, data, target):
     """
